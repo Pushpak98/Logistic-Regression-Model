@@ -89,11 +89,13 @@ has predicted 104 observations but being Fail as the actual class the model has 
 Pass. Similarly, the model has predicted 159 observations as Pass and 14 observations as Fail. So it means there
 are many misclassified values which were found to be 37 observations.
 __Confusion matrix -__
+
 </img><img src="https://user-images.githubusercontent.com/55409875/89710648-91119780-d9a2-11ea-8e37-34b013201608.PNG" width="15%"></img>
 
 __Questions -__
 1. Statistics of the data
 We can get the statistics of the data using describe function –
+
  </img><img src="https://user-images.githubusercontent.com/55409875/89710649-9242c480-d9a2-11ea-969e-a0f12ceb37e2.PNG" width="15%"></img>
 
 We have also got a pair wise correlation function that is attached in the 2nd step.
@@ -114,6 +116,7 @@ Note
 4. At one particular time,
 Performance of the above model says – Precision was observed to be 0.946 and
 Recall equals to 0.961
+
  </img><img src="https://user-images.githubusercontent.com/55409875/89710654-9cfd5980-d9a2-11ea-876f-911fde9860b4.PNG" width="15%"></img>
 
 F1 Score is the harmonic mean of Precision and Recall that we evaluated in Performance of the model.
