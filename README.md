@@ -16,7 +16,7 @@ Using the above datasets, make a report on the following: Note: Any assumptions 
 3. Fit a logistic regression model on the training set. Choose an appropriate objective function to quantify classification error. Manually code for the gradient descent procedure used to find optimum model parameters. (Note: You may need to perform multiple initializations to avoid local minima)
 4. Evaluate the performance of above model on your test data. Report the confusion matrix and the F1 Score.
 
-#Solution
+# Solution
 
 Following are the steps required to implement Logistic Regression -
 1. Collecting Data
