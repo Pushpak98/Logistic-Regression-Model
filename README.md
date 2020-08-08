@@ -61,7 +61,7 @@ We know correlation values lie from -1 to 1 and if they are closer to 1 we say t
 between two variables but in our case none of the values are nearer to 1which represents none of them are
 correlated to each other.
 
-
+<img src="https://user-images.githubusercontent.com/55409875/89710644-8820c600-d9a2-11ea-8875-7573a0b404c7.PNG" width="15%"></img>
 
 we need to convert all the string values to numerical values for which we need to re-index the categories to
 numerical values that are Pass to 1 and Fail to 0 so that we can work with any machine learning algorithms. Now
@@ -69,7 +69,8 @@ we need to select the features where we need to divide the given columns into tw
 independent and other having dependent variables. For this we store the column names and separate input
 names from the data. Here we took y as dependent and x as in dependent variable and store the values from
 input features, output values in y.
-Step 3 – Train and Test set
+
+__Step 3 – Train and Test set__
 In this we have to divide the data into train sets and test sets so that we can build the model on the train set and
 deserve some part of the data to test the model on. The input parameters for the train test split would be
 x(input values) and y(output values) and as mentioned in the question 30% for testing the data and 70% for
@@ -79,17 +80,22 @@ variables separately and the output variable separately. We can observe the dime
 as well. Now we construct a logistic regression classifier instance in which we can fit the model using the fit
 function. We can also get some attributes from classification models like coefficients, intercept etc. Now we can
 predict the model on the data frame using the predict function.
-Step 4 – Accuracy check
+
+__Step 4 – Accuracy check__
 We can evaluate the model using the confusion matrix which is used to evaluate performance of a classification
 model. This tells us about no of correct predictions and no of incorrect predictions. We have got the confusion
 matrix and accuracy score as 87.67 %. In the confusion matrix if the actual class is Fail that is 0 then our model
 has predicted 104 observations but being Fail as the actual class the model has predicted 23 observations as
 Pass. Similarly, the model has predicted 159 observations as Pass and 14 observations as Fail. So it means there
 are many misclassified values which were found to be 37 observations.
-Confusion matrix -
-Questions -
+__Confusion matrix -__
+<img src="https://user-images.githubusercontent.com/55409875/89710648-91119780-d9a2-11ea-8e37-34b013201608.PNG" width="15%"></img>
+
+__Questions -__
 1. Statistics of the data
 We can get the statistics of the data using describe function –
+ <img src="https://user-images.githubusercontent.com/55409875/89710649-9242c480-d9a2-11ea-969e-a0f12ceb37e2.PNG" width="15%"></img>
+
 We have also got a pair wise correlation function that is attached in the 2nd step.
 2. This part was done earlier in step 3 – Train and Test set.
 3. For this we are going to use Newton’s method to solve the Logistic Regression model and to code for
@@ -108,9 +114,11 @@ Note
 4. At one particular time,
 Performance of the above model says – Precision was observed to be 0.946 and
 Recall equals to 0.961
+ <img src="https://user-images.githubusercontent.com/55409875/89710654-9cfd5980-d9a2-11ea-876f-911fde9860b4.PNG" width="15%"></img>
+
 F1 Score is the harmonic mean of Precision and Recall that we evaluated in Performance of the model.
 Accuracy score = 0.96
 Accuracy = 96%
 Confusion matrix – output[0] is accuracy and output[1] is Confusion matrix
 
-
+<img src="https://user-images.githubusercontent.com/55409875/89710662-a2f33a80-d9a2-11ea-9114-b20632c1ade2.PNG" width="15%"></img> <img src="https://user-images.githubusercontent.com/55409875/89710664-a5ee2b00-d9a2-11ea-9e7a-ab686f3b0b06.PNG" width="15%"></img> 
